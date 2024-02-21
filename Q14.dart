@@ -13,7 +13,7 @@ for (var i = 1; i <=f; i++) {
     stdout.write(g++);
   }
   //spacing Loop
-  for (var k = 0; k >=i; k--) {
+  for (var k = f-1; k >=i; k--) {
     stdout.write(" ");
   }
   stdout.writeln();
